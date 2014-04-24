@@ -17,7 +17,7 @@ NOTE: 'Supported' means that the library has been tested with this version. 'Com
 ARC Compatibility
 ------------------
 
-As of version 1.4, SoundManager requires ARC. If you wish to use SoundManager in a non-ARC project, just add the -fobjc-arc compiler flag to the SoundManager.m class. To do this, go to the Build Phases tab in your target settings, open the Compile Sources group, double-click iRate.m in the list and type -fobjc-arc into the popover.
+As of version 1.4, SoundManager requires ARC. If you wish to use SoundManager in a non-ARC project, just add the -fobjc-arc compiler flag to the SoundManager.m class. To do this, go to the Build Phases tab in your target settings, open the Compile Sources group, double-click SoundManager.m in the list and type -fobjc-arc into the popover.
 
 If you wish to convert your whole project to ARC, comment out the #error line in SoundManager.m, then run the Edit > Refactor > Convert to Objective-C ARC... tool in Xcode and make sure all files that you wish to use ARC for (including SoundManager.m) are checked.
 
